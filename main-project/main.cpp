@@ -9,10 +9,12 @@ using namespace std;
 
 int main()
 {
+
     setlocale(LC_ALL, "Russian");
-    cout << "Лабораторная работа №8. GIT\n";
-    cout << "Вариант №0. Библиотечный абонемент\n";
+    cout << "Лабораторная работа №9. GIT\n";
+    cout << "Вариант №5. Библиотечный абонемент\n";
     cout << "Автор: Сергей Ермоченко\n\n";
+    cout << "Группа: ПИнж23_1"
     book_subscription* subscriptions[MAX_FILE_ROWS_COUNT];
     int size;
     try
@@ -71,5 +73,11 @@ int main()
     {
         cout << error << '\n';
     }
+
+    cout << "Laboratory work #9. GIT\n";
+    cout << "Variant #5. Library Subscription\n";
+    cout << "Author: Krapiventsew D\n";
+    cout << "Group: PInj23_1\n";
+
     return 0;
 }
